@@ -1,5 +1,5 @@
 import { Button, Typography } from "@mui/material";
-import { HeroPng } from "../assets/image";
+import { HeroPng, PsPng } from "../assets/image";
 import Section from "../components/Section";
 
 interface IProps {
@@ -22,13 +22,26 @@ const Hero = (props: IProps) => {
             iConvert adalah penyedia jasa convert pulsa yang mudah, aman dan
             terpercaya.
           </Typography>
-          <Button
-            onClick={() => props.toggleForm()}
-            sx={{ width: 200, height: 50, borderRadius: 2, marginTop: 5 }}
-            variant="contained"
-          >
-            Convert Sekarang
-          </Button>
+          <div className="flex flex-col gap-5">
+            <Button
+              onClick={() => props.toggleForm()}
+              sx={{ width: 200, height: 50, borderRadius: 2, marginTop: 5 }}
+              variant="contained"
+            >
+              Convert Sekarang
+            </Button>
+            <img
+              className="cursor-pointer object-contain w-36 h-11"
+              src={PsPng}
+              alt="ps"
+              onClick={() =>
+                window.open(
+                  "https://play.google.com/store/apps/details?id=com.iconvert.webview.id&pcampaignid=web_share",
+                  "_blank"
+                )
+              }
+            />
+          </div>
         </Section>
       </div>
       <Section delay={0.7}>
