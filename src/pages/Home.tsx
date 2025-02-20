@@ -14,6 +14,7 @@ import Snk from "../components/Snk";
 import useStore from "../zustand";
 import { Helmet } from "react-helmet-async";
 import Section from "../components/Section";
+import Footer from "../components/Footer";
 
 const Home = () => {
   // State
@@ -34,8 +35,8 @@ const Home = () => {
     // screen
     <div className="home p-0 m-0 grid grid-cols-1 gap-24 scroll-smooth ">
       <Helmet>
-        <title>iConvert</title>
-        <meta name="iconvert" content="Convert pulsa" />
+        <title>Kurir Pulsa</title>
+        <meta name="Kurir Pulsa" content="Kurir Pulsa" />
       </Helmet>
 
       {/* Hero */}
@@ -59,6 +60,10 @@ const Home = () => {
       {/* About */}
       <Section delay={0.5}>
         <About primaryData={dataPrimary?.[0]} />
+      </Section>
+
+      <Section delay={0.5}>
+        <Footer />
       </Section>
 
       {/* Modal Form Convert */}

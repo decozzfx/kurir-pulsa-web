@@ -189,7 +189,7 @@ const FormConvert: React.FC<AddDataProps> = ({
                 <HiOutlineXMark className="text-xl font-bold" />
               </button>
               <span className="text-2xl font-bold text-center w-full">
-                Form iConvert
+                Form Convert
               </span>
             </div>
             <form onSubmit={handleSubmit(onSubmitHandler)} className="w-full">
