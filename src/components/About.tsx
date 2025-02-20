@@ -28,7 +28,10 @@ const About: FC<IProps> = (props) => {
           <div className="flex flex-wrap gap-6">
             <img
               onClick={() =>
-                window.open("https://www.facebook.com/iconvertpulsa", "_blank")
+                window.open(
+                  "https://www.facebook.com/profile.php?id=61573149397577",
+                  "_blank"
+                )
               }
               className="cursor-pointer object-contain w-11 h-11"
               src={FbPng}
@@ -39,10 +42,7 @@ const About: FC<IProps> = (props) => {
               src={IgPng}
               alt="ig"
               onClick={() =>
-                window.open(
-                  "https://www.instagram.com/iconvertpulsa/",
-                  "_blank"
-                )
+                window.open("https://www.instagram.com/kurirpulsaid/", "_blank")
               }
             />
             <button
@@ -59,9 +59,7 @@ const About: FC<IProps> = (props) => {
               className="cursor-pointer object-contain w-11 h-11"
               src={XPng}
               alt="x"
-              onClick={() =>
-                window.open("https://x.com/iconvert_pulsa", "_blank")
-              }
+              onClick={() => window.open("https://x.com/KurirPulsa", "_blank")}
             />
             <img
               className="cursor-pointer object-contain w-36 h-11"
