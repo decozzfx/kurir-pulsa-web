@@ -19,8 +19,12 @@ const Hero = (props: IProps) => {
             Selamat datang di Kurir Pulsa
           </Typography>
           <Typography>
-            iConvert adalah penyedia jasa convert pulsa yang mudah, aman dan
+            Kurir Pulsa adalah penyedia jasa convert pulsa yang mudah, aman dan
             terpercaya.
+          </Typography>
+          <Typography variant="caption" color="gray">
+            *Perhatian kami tidak menerima pulsa hasil ilegal judi, penipuan,
+            dan sebagainya.
           </Typography>
           <div className="flex flex-col gap-5">
             <Button

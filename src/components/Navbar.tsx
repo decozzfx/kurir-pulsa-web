@@ -24,7 +24,7 @@ const Navbar = () => {
     { label: "Kebijakan Privasi", link: "", onclick: snkToggle },
     { label: "About Us", link: "#about" },
     { label: "Contact Support", link: "#contact-support" },
-    { label: "Delete Account", link: "/delete-account" },
+    // { label: "Delete Account", link: "/delete-account" },
     { label: `Buka ${jamBuka} - ${jamTutup}`, link: "" },
   ];
 
@@ -65,7 +65,7 @@ const Navbar = () => {
                 to={"/"}
                 className="flex items-center gap-3 xl:gap-2 mt-1 mb-5"
               >
-                <img src={LogoPng} style={{ width: 50 }} alt="logo" />
+                <img src={LogoPng} style={{ width: 20 }} alt="logo" />
                 <Link to={"/"} className="flex items-center gap-1 xl:gap-2">
                   <span className="text-lg font-bold text-lg-content dark:text-neutral-200">
                     Kurir Pulsa
@@ -87,7 +87,7 @@ const Navbar = () => {
         </div>
 
         {/* navbar logo */}
-        <img src={LogoPng} style={{ width: 60 }} alt="logo" />
+        <img src={LogoPng} style={{ width: 40 }} alt="logo" />
         <Link to={"/"} className="flex items-center gap-1 xl:gap-2">
           <span className="text-[26px] leading-[1.2] sm:text-lg xl:text-xl 2xl:text-2xl font-bold text-lg-content dark:text-neutral-200">
             Kurir Pulsa
