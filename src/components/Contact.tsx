@@ -18,7 +18,7 @@ const ContactSupport = (props: IProps) => {
         </Typography>
         <Typography variant="body2">
           Hubungi CS kami dengan klik logo WhatsApp dibawah untuk mendapatkan
-          bantuan maupun informasi lebih lanjut tentang iConvert.{" "}
+          bantuan maupun informasi lebih lanjut tentang Kurir Pulsa.{" "}
         </Typography>
         <div className="h-full w-full flex items-center justify-center">
           <button
