@@ -29,7 +29,7 @@ const About: FC<IProps> = (props) => {
             <img
               onClick={() =>
                 window.open(
-                  "https://www.facebook.com/profile.php?id=61573149397577",
+                  "https://www.facebook.com/profile.php?id=61573542867888",
                   "_blank"
                 )
               }

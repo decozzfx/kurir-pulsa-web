@@ -49,10 +49,11 @@ const Hero = (props: IProps) => {
         </Section>
       </div>
       <Section delay={0.7}>
-        <div className="ml-32">
+        <div className="ml-8 md:ml-32">
           <img
             src={HeroPng}
             alt="hero"
+            className="object-contain w-3/4 h-full"
             onClick={() =>
               window.open(
                 "https://play.google.com/store/apps/details?id=com.iconvert.webview.id&pcampaignid=web_share",
