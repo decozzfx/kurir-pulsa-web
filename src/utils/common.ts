@@ -1,5 +1,7 @@
 import formatter from "./numbro";
 const { formatDecimal } = formatter;
+import { ClassValue, clsx } from "clsx";
+import { twMerge } from "tailwind-merge";
 
 export const numericInputFormatter = {
   /** Format numeric string to text field value */
@@ -40,3 +42,7 @@ export const WhatsAppLink = (phone: string, message?: string) => {
   )}`;
   return window.open(waFormat, "_blank");
 };
+
+export function cn(...inputs: ClassValue[]) {
+  return twMerge(clsx(inputs));
+}
