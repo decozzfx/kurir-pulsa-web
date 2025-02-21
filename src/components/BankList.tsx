@@ -21,9 +21,9 @@ const BankList = (props: IProps) => {
         <div className="grid grid-cols-2 lg:grid-cols-5 items-center mt-5">
           {dataBankList?.map((bank) => {
             return (
-              <div className="m-auto">
+              <div className="m-auto hover:scale-125 transition  scale-100">
                 <img
-                  className="object-contain w-28 h-16"
+                  className="object-contain  w-28 h-16"
                   src={bank.img_url}
                   alt="bank-img"
                 />
